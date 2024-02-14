@@ -7,5 +7,6 @@ _metadata:
   platform:
     - name: "cisco_ios"
 acl:
-  name: SSH-ACCESS
-    - permit 192.168.1.199
+  name: "SSH-ACCESS"
+  rules:
+    - "permit 192.168.1.199"
